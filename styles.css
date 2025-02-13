@@ -1,0 +1,28 @@
+body {
+    touch-action: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#gameCanvas {
+    background: #fff;
+    cursor: crosshair;
+}
+
+.feedback-visible {
+    display: block !important;
+}
+
+.score-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.score-high {
+    color: #10B981;
+}
+
+.score-low {
+    color: #F59E0B;
+}
